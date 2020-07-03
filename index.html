@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Erick</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <script src="https://kit.fontawesome.com/365c3baa9e.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</head>
+
+ 
+
+	
+
+<body>
+	<div class="final">	
+	<div class="git" id="panel1">
+	
+	<a class="fa fa-github fa-3x githab" style="color:white"></a>
+	<a style="color:black"  class="taxt" id="text1"><b>@Erickeagle3</b></a>
+		<button type="button" class="btn btn-primary bat1" onclick="location.href='https://GitHub.com/Erickeagle3';"  ><a class="fa fa-git"></a> follow</button>
+	
+	</div>
+<div class="tg" id="panel2">
+	
+	<a class="fa fa-telegram fa-3x githab" style="color:white"></a>
+	<a style="color:black" class="taxt"  id="text2"><b>@NBD_ERICK</b></a>
+		<button type="button" class="btn btn-primary bat1" onclick="location.href='https://t.me/NBD_ERICK';"><a class="fa fa-comments"></a> chat</button>
+	
+	</div>
+	
+<div class="pling" id="panel3">
+	
+	<a class="fa fa-grav fa-3x  githab" style="color:white"></a>
+	<a style="color:black"  class="taxt"  id="text3"><b>@NBD_ERICK</b></a>
+	
+		<button onclick="location.href='https://www.pling.com/u/eric223/';"  target="_blank" type="button" class="btn btn-primary bat1"><a class="fa fa-opencart"></a> pling</button>
+	
+	</div>
+<div class="rom" id="panel4">
+	
+	<a class="fa fa-fingerprint fa-3x  githab" style="color:white"></a>
+	<a style="color:black"  class="taxt"  id="text4"><b>my_roms</b></a>
+	
+		<button onclick="location.href='https://mido.myromsphere.tech';"  target="_blank" type="button" class="btn btn-primary bat1"><a class="fa fa-registered"></a> roms</button>
+	
+	</div>
+</div>
+	<div class="panel2">
+<button type="button" class="btn btn-warning" onclick="location.href='https://paypal.me/erickeagle334';">
+  donate <span class="badge badge-light"><a class="fa fa-paypal"></a></span>
+	</button>
+		
+
+</div>
+	<div class="panel6">	<button type="button" class="btn btn-primary" onclick="copy('sayanchakraborty334-1@oksbi')" ><a class="fa fa-google"></a>
+   <span class="badge badge-light"></span>
+	</button>
+	
+	
+	</div>
+<div class="panel3">	<button type="button" class="btn btn-dark" onclick="myFunction()" ><a class="fa fa-moon-o"></a>
+   <span class="badge badge-light"></span>
+	</button> </div>
+<div class="panel" id="panel" >
+	<div class="logo">
+    <img src="profile.png" width="80" height="80" class="d-inline-block align-top" alt="">
+		<a class="navbar-brand"  href="#">
+   <b> Erick Eagle</b> 
+  </a></div>
+
+
+</div>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+	
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script>
+function myFunction() {
+   document.getElementById("panel").style.background = "#242426";
+	document.getElementById("panel1").style.background = "#242426";
+	document.getElementById("panel2").style.background = "#242426";
+	document.getElementById("panel3").style.background = "#242426";
+	document.getElementById("text1").style.color = "#ffffff";
+	document.getElementById("text2").style.color = "#ffffff";
+	document.getElementById("text3").style.color = "#ffffff";
+	document.getElementById("panel4").style.background = "#242426";
+	document.getElementById("text4").style.color = "#ffffff";
+}
+
+function copy(text) {
+  var textarea = document.createElement("textarea");
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+	alert("copied upi");
+}
+
+</script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
+</body>
+
+
+<footer>
+	<p>
+		Created  <i class="fa fa-heart"></i> by
+		<a href="https://www.t.me/overclockedboi" target="_blank">@overclockedboi</a>
+		
+	</p>
+</footer>
+	
+	
+</html>
